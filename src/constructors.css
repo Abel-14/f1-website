@@ -1,0 +1,130 @@
+:root {
+    --bgcolor: #c8cdd0;
+    --redbull_color: #005CAA;
+    --mercedes_color: #86D1C0;
+    --astonmartin_color: #4E8A76;
+    --ferrari_color: #CF302D;
+    --mclaren_color: #E6863B
+}
+
+.main-container a:link,
+.main-container a:visited,
+.main-container a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN CONTAINER */
+.title {
+    margin: 0.5em;
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.constructor-list {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 5em;
+
+}
+
+.constructor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    transition-duration: 0.25s;
+
+
+}
+
+.constructor:hover {
+    transform: scale(1.025);
+    transition-duration: 0.25s;
+}
+
+/* CONSTRUCTOR LEFT */
+.constructor-left {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    border-radius: 2em 0 0 2em;
+
+}
+
+.constructor-position {
+    font-size: 10em;
+    font-weight: bolder;
+    color: #B4AEAE;
+
+    text-align: right;
+    padding: 0;
+}
+
+.constructor-name {
+    font-size: 2em;
+    font-weight: bold;
+
+    text-align: center;
+    padding: 0;
+    margin-block: 0;
+}
+
+.constructor-points {
+    font-size: 4em;
+    font-weight: bold;
+
+    text-align: center;
+    padding: 0;
+    margin-block: 0;
+}
+
+.driver-img {
+    width: 100px;
+    height: 100%;
+    padding-left: 1em;
+    ;
+}
+
+.driver-name {
+    vertical-align: top;
+}
+
+.driver-fname {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: -0.2em;
+}
+
+.driver-lname {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-right: 1em;
+    width: 5em;
+    margin-top: 0.2em;
+}
+
+.divider {
+    padding-inline: 0.2em;
+    background: var(--redbull_color);
+    border-radius: 10px;
+
+    padding-bottom: 10px;
+}
+
+/* CONSTRUCTOR RIGHT */
+.constructor-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #eaeaea;
+    border-radius: 0 2em 2em 0;
+}
+
+.constructor-logo {
+    margin-right: 3em;
+    opacity: 0.9;
+}

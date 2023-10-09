@@ -1,0 +1,87 @@
+:root {
+    --redbull_color: #005CAA;
+    --mercedes_color: #86D1C0;
+    --astonmartin_color: #4E8A76;
+    --ferrari_color: #CF302D;
+    --mclaren_color: #E6863B
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    padding-block: 2em;
+}
+
+.data {
+    display: flex;
+}
+
+.div-left {
+    background-color: #f4f4f4;
+}
+
+.div-left table {
+    padding-left: 3em;
+    padding-right: 1em;
+    font-size: 1.25em;
+}
+
+.driver-position {
+    font-size: 10em;
+    letter-spacing: -0.125em;
+    font-weight: bolder;
+    color: #B4AEAE;
+
+    text-align: right;
+    padding: 0;
+
+    width: 2em;
+    text-align: left;
+
+    vertical-align: top;
+}
+
+.driver-flag {
+    text-align: center;
+}
+
+.driver-flag img {
+    width: 8em;
+
+    margin-left: -10em;
+}
+
+.driver-fname {
+    font-size: 4em;
+    font-weight: lighter;
+    padding: 0;
+    margin-top: -0.4em;
+    margin-bottom: -1.25em;
+}
+
+.driver-lname {
+    font-size: 4em;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/* INFORMATION */
+.info-left {
+    font-weight: bold;
+}
+
+.info-divider {
+    font-weight: bold;
+    text-align: center;
+    width: 3vw;
+}
+
+.info-right {
+    font-weight: normal;
+    text-align: left;
+}
+
+.driver-img {
+    width: 40em;
+    border-radius: 0 50px 50px 0;
+}

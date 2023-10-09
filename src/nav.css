@@ -1,0 +1,85 @@
+/* NAVBAR */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #d2001a40, #7462ff40, #f48e2140, #23d5ab40);
+    background-attachment: fixed;
+
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding-left: -10;
+    background-color: rgb(255, 0, 0, 1);
+
+
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav-left {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.nav-mid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-mid p {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    transition-duration: 500ms;
+}
+
+.nav-mid p:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    padding: 0.5em;
+
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
+.nav-mid p {
+    padding: 0.5em;
+    margin-inline: 36px;
+    margin-block: 12px;
+
+    border-radius: 20px;
+
+}
+
+.nav-right {
+    margin-right: 2em;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav img {
+    transition-duration: 500ms;
+}
+
+.nav img:hover {
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}

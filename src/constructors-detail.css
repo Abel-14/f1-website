@@ -1,0 +1,97 @@
+/* MAIN CONTAINER */
+.title {
+    margin: 0.5em;
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.main-container {
+    padding-block: 1vw;
+    padding-inline: 3vw;
+    display: flex;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.constructor-logo {
+    height: 12.5em;
+    border-radius: 20px;
+    margin-bottom: 3em;
+}
+
+/* INFORMATION */
+.info {
+    margin-left: 6vw;
+}
+
+.info-left {
+    font-weight: bold;
+}
+
+.info-divider {
+    font-weight: bold;
+    text-align: center;
+    width: 3vw;
+}
+
+.info-right {
+    font-weight: normal;
+    text-align: left;
+}
+
+/* DRIVER */
+.driver {
+    display: flex;
+    margin-left: 2vw;
+    gap: 1em;
+    margin-top: 13em;
+}
+
+.driver img {
+
+    height: 20em;
+}
+
+.driver1,
+.driver2 {
+    background-color: white;
+    border-radius: 30px;
+    width: 20em;
+    height: max-content;
+}
+
+.driver1 table,
+.driver2 table {
+    width: max-content;
+    overflow-wrap: break-word;
+    /* max-width: 300px; */
+}
+
+.driver-name {
+    width: 13.5em;
+    padding: 0;
+}
+
+.driver-fname {
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.driver-lname {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.driver-position {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #B4AEAE;
+}

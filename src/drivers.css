@@ -1,0 +1,252 @@
+:root {
+    --redbull_color: #005CAA;
+    --mercedes_color: #86D1C0;
+    --astonmartin_color: #4E8A76;
+    --ferrari_color: #CF302D;
+    --mclaren_color: #E6863B;
+    --alpine_color: #4891CC;
+    --williams_color: #63BCDA;
+    --haas_color: #B7BABD;
+    --alfaromeo_color: #B93C4F;
+    --alphatauri_color: #698EA7;
+}
+
+
+/* MAIN CONTAINER */
+
+
+.title {
+    margin: 0.5em;
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.main-container a:link,
+.main-container a:visited,
+.main-container a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.driver-cols {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+
+#driver {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 2em;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5vw;
+
+
+}
+
+/* CONTENT */
+#driver {
+    max-width: 62.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.driver {
+    display: flex;
+}
+
+.driver-table {
+    display: block;
+    margin-inline: auto;
+
+    width: 30em;
+    background-color: #fff;
+    border-radius: 1.25em;
+    padding: 0.5em;
+
+}
+
+/* Left */
+.driver-left {
+    display: flex;
+}
+
+.driver-left-num {
+    width: 3em;
+    height: 100%;
+    margin-top: 1em;
+    margin-right: -2.5em;
+}
+
+.driver-left-img {
+    display: block;
+    width: 10em;
+    height: 100%;
+}
+
+.driver-left-position {
+    font-size: 7em;
+    font-weight: bolder;
+    color: #B4AEAE;
+
+    margin-bottom: 0;
+    margin-top: -0.15em;
+    margin-left: -0.5em;
+}
+
+/* Right */
+.driver-right {
+    align-items: right;
+    justify-content: right;
+}
+
+.driver-fname {
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 0;
+}
+
+.driver-lname {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0;
+}
+
+.driver-flag {
+    text-align: right;
+}
+
+.driver-flag img {
+    width: 2em;
+}
+
+.team-name {
+    padding: 0;
+
+    text-align: right;
+    opacity: 0.2;
+    font-weight: bold;
+
+    font-size: 0.75em;
+}
+
+td hr {
+    margin: 0;
+}
+
+.driver-points {
+    padding: 0;
+
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+/* HOVER COLOR */
+
+/* REDBULL */
+.driver-table-redbull {
+    transition-duration: 0.25s;
+}
+
+.driver-table-redbull:hover {
+    box-shadow: 0px 0px 10px 0px var(--redbull_color);
+    transition-duration: 0.25s;
+}
+
+/* MERCEDES */
+.driver-table-mercedes {
+    transition-duration: 0.25s;
+}
+
+.driver-table-mercedes:hover {
+    box-shadow: 0px 0px 10px 0px var(--mercedes_color);
+    transition-duration: 0.25s;
+}
+
+/* FERRARI */
+.driver-table-ferrari {
+    transition-duration: 0.25s;
+}
+
+.driver-table-ferrari:hover {
+    box-shadow: 0px 0px 10px 0px var(--ferrari_color);
+    transition-duration: 0.25s;
+}
+
+/* ASTON MARTIN */
+.driver-table-astonmartin {
+    transition-duration: 0.25s;
+}
+
+.driver-table-astonmartin:hover {
+    box-shadow: 0px 0px 10px 0px var(--astonmartin_color);
+    transition-duration: 0.25s;
+}
+
+/* MCLAREN */
+.driver-table-mclaren {
+    transition-duration: 0.25s;
+}
+
+.driver-table-mclaren:hover {
+    box-shadow: 0px 0px 10px 0px var(--mclaren_color);
+    transition-duration: 0.25s;
+}
+
+/* ALPINE */
+.driver-table-alpine {
+    transition-duration: 0.25s;
+}
+
+.driver-table-alpine:hover {
+    box-shadow: 0px 0px 10px 0px var(--alpine_color);
+    transition-duration: 0.25s;
+}
+
+/* WILLIAMS */
+.driver-table-williams {
+    transition-duration: 0.25s;
+}
+
+.driver-table-williams:hover {
+    box-shadow: 0px 0px 10px 0px var(--williams_color);
+    transition-duration: 0.25s;
+}
+
+/* HAAS */
+.driver-table-haas {
+    transition-duration: 0.25s;
+}
+
+.driver-table-haas:hover {
+    box-shadow: 0px 0px 10px 0px var(--haas_color);
+    transition-duration: 0.25s;
+}
+
+/* ALFA ROMEO */
+.driver-table-alfaromeo {
+    transition-duration: 0.25s;
+}
+
+.driver-table-alfaromeo:hover {
+    box-shadow: 0px 0px 10px 0px var(--alfaromeo_color);
+    transition-duration: 0.25s;
+}
+
+/* ALPINE */
+.driver-table-alphatauri {
+    transition-duration: 0.25s;
+}
+
+.driver-table-alphatauri:hover {
+    box-shadow: 0px 0px 10px 0px var(--alphatauri_color);
+    transition-duration: 0.25s;
+}
