@@ -343,7 +343,7 @@ document.getElementById('mc').innerHTML = `
                     <tr>
                         <td class="driver-position">${driver.driverPos}</td>
                         <td class="driver-flag">
-                            <img src="../assets/Flags/${driver.country}.png" alt="Netherlands" class='driver-flag'>
+                            <img src="/assets/Flags/${driver.country}.png" alt="Netherlands" class='driver-flag'>
                         </td>
                     </tr>
                     <tr>
