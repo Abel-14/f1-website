@@ -2,7 +2,7 @@ const data = [
     {
         teamId: 'redbull',
         teamName: "RED BULL RACING",
-        teamLogo: "../assets/Constructors/Logo/Detailed/redbull_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/redbull_detailed.png",
         fullTeamName: "Oracle Red Bull Racing",
         base: "Milton Keynes, United Kingdom",
         teamChief: "Christian Horner",
@@ -16,14 +16,14 @@ const data = [
         fastestLaps: "93",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/MaxVerstappen.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/MaxVerstappen.png",
             fname: "Max",
             lname: "Verstappen",
             number: "1"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/SergioPerez.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/SergioPerez.png",
             fname: "Sergio",
             lname: "Perez",
             number: "11"
@@ -33,7 +33,7 @@ const data = [
     {
         teamId: 'mercedes',
         teamName: "MERCEDES",
-        teamLogo: "../assets/Constructors/Logo/Detailed/mercedes_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/mercedes_detailed.png",
         fullTeamName: "Mercedes-AMG PETRONAS F1 Team",
         base: "Brackley, United Kingdom",
         teamChief: "Toto Wolff",
@@ -47,14 +47,14 @@ const data = [
         fastestLaps: "95",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/LewisHamilton.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/LewisHamilton.png",
             fname: "Lewis",
             lname: "Hamilton",
             number: "44"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/GeorgeRussell.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/GeorgeRussell.png",
             fname: "George",
             lname: "Russell",
             number: "63"
@@ -64,7 +64,7 @@ const data = [
     {
         teamId: 'ferrari',
         teamName: "FERRARI",
-        teamLogo: "../assets/Constructors/Logo/Detailed/ferrari_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/ferrari_detailed.png",
         fullTeamName: "Scuderia Ferrari",
         base: "Maranello, Italy",
         teamChief: "Frédéric Vasseur",
@@ -78,14 +78,14 @@ const data = [
         fastestLaps: "259",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/CharlesLeclerc.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/CharlesLeclerc.png",
             fname: "Charles",
             lname: "Leclerc",
             number: "16"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/CarlosSainz.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/CarlosSainz.png",
             fname: "Carlos",
             lname: "Sainz",
             number: "55"
@@ -95,7 +95,7 @@ const data = [
     {
         teamId: 'astonmartin',
         teamName: "ASTON MARTIN",
-        teamLogo: "../assets/Constructors/Logo/Detailed/aston_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/aston_detailed.png",
         fullTeamName: "Aston Martin Aramco Cognizant F1 Team",
         base: "Silverstone, United Kingdom",
         teamChief: "Mike Krack",
@@ -109,14 +109,14 @@ const data = [
         fastestLaps: "1",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/FernandoAlonso.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/FernandoAlonso.png",
             fname: "Fernando",
             lname: "Alonso",
             number: "14"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/LanceStroll.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/LanceStroll.png",
             fname: "Lance",
             lname: "Stroll",
             number: "18"
@@ -126,7 +126,7 @@ const data = [
     {
         teamId: 'mclaren',
         teamName: "MCLAREN",
-        teamLogo: "../assets/Constructors/Logo/Detailed/mclaren_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/mclaren_detailed.png",
         fullTeamName: "McLaren Formula 1 Team",
         base: "Woking, United Kingdom",
         teamChief: "Andrea Stella",
@@ -140,14 +140,14 @@ const data = [
         fastestLaps: "163",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/LandoNorris.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/LandoNorris.png",
             fname: "Lando",
             lname: "Norris",
             number: "4"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/OscarPiastri.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/OscarPiastri.png",
             fname: "Oscar",
             lname: "Piastri",
             number: "81"
@@ -157,7 +157,7 @@ const data = [
     {
         teamId: 'alpine',
         teamName: "ALPINE",
-        teamLogo: "../assets/Constructors/Logo/Detailed/alpine_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/alpine_detailed.png",
         fullTeamName: "BWT Alpine F1 Team",
         base: "Enstone, United Kingdom",
         teamChief: "Bruno Famin",
@@ -171,14 +171,14 @@ const data = [
         fastestLaps: "15",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/PierreGasly.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/PierreGasly.png",
             fname: "Pierre",
             lname: "Gasly",
             number: "10"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/EstebanOcon.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/EstebanOcon.png",
             fname: "Esteban",
             lname: "Ocon",
             number: "31"
@@ -188,7 +188,7 @@ const data = [
     {
         teamId: 'williams',
         teamName: "WILLIAMS",
-        teamLogo: "../assets/Constructors/Logo/Detailed/williams_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/williams_detailed.png",
         fullTeamName: "Williams Racing",
         base: "Grove, United Kingdom",
         teamChief: "James Vowles",
@@ -202,14 +202,14 @@ const data = [
         fastestLaps: "133",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/AlexanderAlbon.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/AlexanderAlbon.png",
             fname: "Alexander",
             lname: "Albon",
             number: "23"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/LoganSargeant.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/LoganSargeant.png",
             fname: "Logan",
             lname: "Sargeant",
             number: "2"
@@ -219,7 +219,7 @@ const data = [
     {
         teamId: 'alfaromeo',
         teamName: "ALFA ROMEO",
-        teamLogo: "../assets/Constructors/Logo/Detailed/alfaromeo_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/alfaromeo_detailed.png",
         fullTeamName: "Alfa Romeo F1 Team Stake",
         base: "Hinwil, Switzerland",
         teamChief: "Alessandro Alunni Bravi",
@@ -233,14 +233,14 @@ const data = [
         fastestLaps: "7",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/ValtteriBottas.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/ValtteriBottas.png",
             fname: "Valtteri",
             lname: "Bottas",
             number: "77"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/ZhouGuanyu.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/ZhouGuanyu.png",
             fname: "Zhou",
             lname: "Guanyu",
             number: "24"
@@ -250,7 +250,7 @@ const data = [
     {
         teamId: 'haas',
         teamName: "HAAS",
-        teamLogo: "../assets/Constructors/Logo/Detailed/haas_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/haas_detailed.png",
         fullTeamName: "MoneyGram Haas F1 Team",
         base: "Kannapolis, United States",
         teamChief: "Guenther Steiner",
@@ -264,14 +264,14 @@ const data = [
         fastestLaps: "2",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/KevinMagnussen.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/KevinMagnussen.png",
             fname: "Kevin",
             lname: "Magnussen",
             number: "20"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/NicoHulkenberg.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/NicoHulkenberg.png",
             fname: "Nico",
             lname: "Hulkenberg",
             number: "27"
@@ -281,7 +281,7 @@ const data = [
     {
         teamId: 'alphatauri',
         teamName: "ALPHATAURI",
-        teamLogo: "../assets/Constructors/Logo/Detailed/alphatauri_detailed.png",
+        teamLogo: "/src/assets/Constructors/Logo/Detailed/alphatauri_detailed.png",
         fullTeamName: "Scuderia AlphaTauri",
         base: "Faenza, Italy",
         teamChief: "Franz Tost",
@@ -295,14 +295,14 @@ const data = [
         fastestLaps: "2",
 
         d1: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/YukiTsunoda.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/YukiTsunoda.png",
             fname: "Yuki",
             lname: "Tsunoda",
             number: "22"
         },
 
         d2: {
-            img: "../assets/Constructors/Logo/Detailed/Drivers/DanielRicciardo.png",
+            img: "/src/assets/Constructors/Logo/Detailed/Drivers/DanielRicciardo.png",
             fname: "Daniel",
             lname: "Ricciardo",
             number: "3"
